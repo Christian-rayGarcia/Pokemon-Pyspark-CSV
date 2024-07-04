@@ -39,12 +39,12 @@ def process_pokemon_stats_data(pokemon_stats_info):
 	}
 
 
-base_url = "https://pokeapi.co/api/v2/"
-endpoint = "pokemon"
-output_file = "pokemon_base_data.csv"
+#base_url = "https://pokeapi.co/api/v2/"
+#endpoint = "pokemon"
+#output_file = "pokemon_base_data.csv"
 
-fetcher = DataExtraction(base_url, endpoint, process_pokemon_base_data, output_file)
-fetcher.get_data()
+#fetcher = DataExtraction(base_url, endpoint, process_pokemon_base_data, output_file)
+#fetcher.get_data()
 
 species_url = "https://pokeapi.co/api/v2/"
 species_endpoint = "pokemon-species"
@@ -54,9 +54,9 @@ get_spiecies_data = DataExtraction(species_url, species_endpoint, process_pokemo
 get_spiecies_data.get_data()
 
 
-base_url = "https://pokeapi.co/api/v2/"
-endpoint = "pokemon"
-output_file = "pokemon_stats_data.csv"
+#base_url = "https://pokeapi.co/api/v2/"
+#endpoint = "pokemon"
+#output_file = "pokemon_stats_data.csv"
 
-get_stats_data = DataExtraction(base_url, endpoint, process_pokemon_stats_data, output_file)
-get_stats_data.get_data()
+#get_stats_data = DataExtraction(base_url, endpoint, process_pokemon_stats_data, output_file)
+#get_stats_data.get_data()
