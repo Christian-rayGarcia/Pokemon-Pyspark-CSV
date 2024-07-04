@@ -1,4 +1,4 @@
-Index,Name,Type,,hp,speed,defense,attack,Sp. Atk,Sp. Def,IsLegendary,IsMythical
+Index,Name,Type,Type2,hp,speed,defense,attack,Sp. Atk,Sp. Def,IsLegendary,IsMythical
 1,bulbasaur,grass,poison,45,49,49,65,65,45,False,False
 2,ivysaur,grass,poison,60,62,63,80,80,60,False,False
 3,venusaur,grass,poison,80,82,83,100,100,80,False,False
